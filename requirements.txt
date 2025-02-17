@@ -8,3 +8,4 @@ audio-recorder-streamlit
 python-dotenv
 huggingface-hub
 httpcore
+accelerate>=0.26.0
