@@ -16,7 +16,6 @@ os.environ["HF_HUB_DOWNLOAD_TIMEOUT"] = "600"  # Increased timeout
 BASE_DIR = pathlib.Path(__file__).parent.resolve()
 VIDEO_DIR = BASE_DIR / "videos"
 VIDEO_MAPPING = {
-    "hello": VIDEO_DIR / "hello.mp4",
     "yes": VIDEO_DIR / "yes.mp4",
     "no": VIDEO_DIR / "no.mp4"
 }
